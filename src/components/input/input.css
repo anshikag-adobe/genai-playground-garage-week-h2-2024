@@ -1,0 +1,25 @@
+.input-container {
+    border: 2px solid var(--grey);
+    display: flex;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    justify-content: space-between;
+    align-items: center;
+
+
+    input, textarea {
+        background: none;
+        outline: none;
+        /*border: 1px solid white;*/
+        border: none;
+        width: 100%;
+        font-size: .8em;
+    }
+
+    button {
+        background: var(--ultramarine);
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}
+

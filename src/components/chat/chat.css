@@ -1,0 +1,37 @@
+.chat-playground-arena {
+    background: var(--arena-background);
+    height: 92%;
+    width: 80%;
+    border-radius: 1.5rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.chat-viewer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    .chat-message {
+        width: 60%;
+        text-align: left;
+        background: var(--grey);
+        padding: .8rem 1.2rem;
+        border-radius: .5rem;
+        font-size: .9rem;
+    }
+    .chat-prompt {
+        align-self: flex-end;
+        width: 50%;
+    }
+    .chat-response {
+        background: var(--background);
+        background: var(--ultramarine);
+    }
+}
